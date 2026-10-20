@@ -1,14 +1,37 @@
 {
   "name": "Just Enough",
   "slug": "just-enough",
-  "latest": "1.0.0",
+  "latest": "1.0.1",
   "homepage": "https://hasbreo.com/just-enough",
   "privacy": "https://hasbreo.com/privacy/extensions/just-enough",
   "description": "Automatically choose clear necessary-only cookie options, with global and per-site controls.",
   "releases": [
     {
+      "version": "1.0.1",
+      "label": "1.0.1 — latest",
+      "legacy": false,
+      "notes": [
+        "Recognises Reject Non-Essential buttons without the word cookies, including Unicode hyphens.",
+        "Direct refusal is preferred over opening cookie preferences. No new permissions."
+      ],
+      "assets": [
+        {
+          "name": "Just-Enough-v1.0.1.zip",
+          "sha256": "18142b823d7bd9209260c4b104211331b5e4ea12ca52c142abf19dc5439b8562",
+          "size": 23087,
+          "kind": "manual"
+        },
+        {
+          "name": "Just-Enough-v1.0.1-store.zip",
+          "sha256": "db2eab18ee5795c690a0c0f706447ba40cf1d1fedd021d0894c3e4f0bfaf364a",
+          "size": 22775,
+          "kind": "store-upload"
+        }
+      ]
+    },
+    {
       "version": "1.0.0",
-      "label": "1.0.0 — latest",
+      "label": "1.0.0 — previous",
       "legacy": false,
       "assets": [
         {
